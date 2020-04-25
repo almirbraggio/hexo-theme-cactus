@@ -19,9 +19,14 @@ article
       text-transform: uppercase
       letter-spacing: .01em
       font-weight: 700
+      &:after
+        content: " "
 
     .postdate
       display: inline
+
+      &:before
+        content: "| "
 
   .content
     h2:before
